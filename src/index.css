@@ -9,3 +9,12 @@
 * { box-sizing: border-box; }
 body { margin: 0; min-width: 320px; }
 button { font: inherit; }
+
+.app-shell { min-height: 100vh; display: grid; place-items: center; gap: 2rem; padding: 4rem 1.25rem; background: radial-gradient(circle at top right, #dff5f2 0, transparent 32rem), #f4f7fb; }
+.intro { width: min(100%, 520px); text-align: center; }
+.eyebrow { margin: 0 0 0.75rem; color: #167d8d; font-size: 0.75rem; font-weight: 800; letter-spacing: 0.13em; text-transform: uppercase; }
+h1 { margin: 0; color: #102a43; font-size: clamp(2.5rem, 8vw, 4.75rem); letter-spacing: -0.07em; line-height: 0.98; }
+.lede { margin: 1rem auto 0; max-width: 42ch; color: #627d98; font-size: 1.05rem; line-height: 1.65; }
+.learning-note { width: min(100%, 520px); padding-top: 1rem; border-top: 1px solid #d9e2ec; color: #829ab1; font-size: 0.8rem; text-align: center; }
+.learning-note span { color: #486581; font-weight: 800; }
+.learning-note p { margin: 0.4rem 0 0; }
